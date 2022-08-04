@@ -25,7 +25,22 @@
     color: black;
     font-weight: 600;
   }
+  .footerlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 32px;
 
+  }
+  .headerlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 32px;
+
+  }
 
 
   

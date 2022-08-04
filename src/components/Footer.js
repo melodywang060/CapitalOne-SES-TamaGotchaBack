@@ -5,7 +5,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className="footer">
-            <div className="links">
+            <div className="footerlinks">
                 <Link to="/budget">Budget Remaining</Link>
                 <Link to="/credit">Credit Score</Link>
             </div>

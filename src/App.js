@@ -3,7 +3,8 @@ import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Login from './components/Login';
 import Budget from './components/Budget';
-import CreditScore from './components/CreditScore';
+import Home from './components/Home';
+import EarnPoints from './components/EarnPoints';
 
 function App() {
   return (
@@ -11,7 +12,11 @@ function App() {
     <Router>
       <Routes>
       <Route path="/" element={<Login/>}> </Route>
-      <Route path="/Budget" element={<Budget/>}></Route>
+      <Route path="/budget" element={<Budget/>}></Route>
+      <Route path="/home" element={<Home/>}></Route>
+      <Route path="/earnpoints" element={<EarnPoints/>}></Route>
+
+
       </Routes>
     </Router>
     </>
