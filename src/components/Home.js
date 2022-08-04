@@ -8,13 +8,15 @@ import './Home.css';
 function Home() {
   return (
     <div className='Home'> 
-        <div className='Home-header'>
+        <div className='headerlinks'>
             <Header/>
         </div>
         <div className = 'img'>
             <img class="myGif" src={myGif} />
         </div>
+        <div className="footerlinks">
         <Footer/> 
+        </div>
     </div>
   );
 }
