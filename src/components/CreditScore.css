@@ -1,0 +1,35 @@
+label.score{
+    margin: auto;
+    display: block;
+    text-align-last: center;
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+}
+label.message{
+    margin: auto;
+    display: block;
+    text-align-last: center;
+    position: relative;
+    top: 300px;
+    font-size: 25px;
+}
+
+.sad-cat{
+    position: relative;
+    bottom: 100px;
+    left: 350px;
+}
+.happy-cat{
+    position: relative;
+    bottom: 75px;
+    left: 700px;
+}
+button.helpMe{
+    margin: auto;
+    background-color:lightblue;
+    display: block;
+    position: relative;
+    top: 300px;
+    font-size: 18px;
+}
