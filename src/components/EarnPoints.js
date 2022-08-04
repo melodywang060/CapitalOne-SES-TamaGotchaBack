@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import normalCat from './NormalCat.PNG';
 import happyCat2 from './HappyCat2.png';
 import angryCat from './AngryCat.PNG';
-import psychedCat from './PsychedCat.PNG';
-import './earnPoints.css';
+import psychedCat from './PsychedCat.png';
+import './EarnPoints.css';
 
 export default function EarnPoints() {
 	const questions = [

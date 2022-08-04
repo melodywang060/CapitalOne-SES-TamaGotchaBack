@@ -15,8 +15,6 @@ function App() {
       <Route path="/budget" element={<Budget/>}></Route>
       <Route path="/home" element={<Home/>}></Route>
       <Route path="/earnpoints" element={<EarnPoints/>}></Route>
-
-
       </Routes>
     </Router>
     </>

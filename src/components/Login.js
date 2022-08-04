@@ -15,7 +15,7 @@ const Login = () => {
         console.log(isEmail + " " + isPassword)
         isEmail = null
         isPassword = null
-        navigate('/Budget', {replace: false})
+        navigate('/Home', {replace: false})
     }
 
   return (
