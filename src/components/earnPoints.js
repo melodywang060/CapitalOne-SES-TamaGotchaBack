@@ -5,7 +5,7 @@ import happyCat2 from './HappyCat2.PNG';
 import happyCat3 from './HappyCat3.PNG';
 import angryCat from './AngryCat.PNG';
 import psychedCat from './PsychedCat.PNG';
-
+import './earnPoints.css';
 
 export default function EarnPoints() {
 	const questions = [
