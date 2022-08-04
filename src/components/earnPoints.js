@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import normalCat from './NormalCat.PNG';
-import happyCat1 from './HappyCat1.PNG';
-import happyCat2 from './HappyCat2.PNG';
-import happyCat3 from './HappyCat3.PNG';
+import happyCat2 from './HappyCat2.png';
 import angryCat from './AngryCat.PNG';
-import psychedCat from './PsychedCat.PNG';
+import psychedCat from './PyschedCat.PNG';
+
 
 
 export default function EarnPoints() {
