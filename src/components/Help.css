@@ -1,0 +1,53 @@
+.Title {
+    width: 1000px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    text-align: left;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: right;
+  }
+
+  li {
+    padding: 20px;
+    
+  }
+
+  .long-arrow-left{
+    display: block;
+    margin: 10px auto;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    float: left;
+    margin-left: 25px;
+    transform: rotate(-45deg);
+  }
+  
+  .long-arrow-left::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: black;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
+  }

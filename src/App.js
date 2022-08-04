@@ -1,17 +1,21 @@
 import './App.css';
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, Switch} from 'react-router-dom'
 import Login from './components/Login';
 import Budget from './components/Budget';
-import CreditScore from './components/CreditScore';
+import Home from './components/Home';
+
+import { HelpPage } from './components/Help';
 
 function App() {
   return (
     <>
     <Router>
       <Routes>
-      <Route path="/" element={<Login/>}> </Route>
+      <Route exact path="/" element={<Login/>}> </Route>
+      <Route path="/Home" element={<Home/>}></Route>
       <Route path="/Budget" element={<Budget/>}></Route>
+      <Route path="/Help" element={<HelpPage/>}></Route>
       </Routes>
     </Router>
     </>
