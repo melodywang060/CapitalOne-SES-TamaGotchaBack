@@ -6,6 +6,7 @@ import Budget from './components/Budget';
 import Home from './components/Home';
 import { HelpPage } from './components/Help';
 import EarnPoints from './components/EarnPoints';
+import CreditScore from './components/CreditScore';
 
 function App() {
   return (
@@ -17,8 +18,7 @@ function App() {
       <Route path="/home" element={<Home/>}></Route>
       <Route path="/earnpoints" element={<EarnPoints/>}></Route>
       <Route path="/help" element={<HelpPage/>}></Route>
-
-
+      <Route path="/creditscore" element={<CreditScore/>}></Route>
       </Routes>
     </Router>
     </>

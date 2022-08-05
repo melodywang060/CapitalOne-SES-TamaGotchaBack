@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "tamagotchi";   /*Can be any text*/
+  src: local("tamagotchi"),
+    url("./fonts/new_browserlink.ttf") format("truetype");
+}

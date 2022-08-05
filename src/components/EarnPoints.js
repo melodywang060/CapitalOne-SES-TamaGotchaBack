@@ -3,7 +3,8 @@ import normalCat from './NormalCat.PNG';
 import happyCat2 from './HappyCat2.png';
 import angryCat from './AngryCat.PNG';
 import psychedCat from './PsychedCat.png';
-import './earnPoints.css';
+import {Link} from 'react-router-dom';
+import './EarnPoints.css';
 
 export default function EarnPoints() {
 	const questions = [
@@ -12,7 +13,7 @@ export default function EarnPoints() {
 			answerOptions: [
 				{ answerText: 'A money substitute for items you cannot afford', isCorrect: false },
 				{ answerText: 'A loan that has to be paid off every month', isCorrect: false },
-				{ answerText: 'An arrangment by which you can buy somethin now, with the promise that you will pay for it in the future ', isCorrect: false },
+				{ answerText: 'An arrangment by which you can buy something now, with the promise that you will pay for it in the future ', isCorrect: false },
 				{ answerText: 'All of the Above', isCorrect: true },
 			],
 		},
@@ -80,6 +81,9 @@ export default function EarnPoints() {
 	}
 	return (
 		<div className='app'>
+
+
+
 			<div className= 'textbox-section'>
 					 {words}
 			</div>

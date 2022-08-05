@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80px;
+    background-color: #fadadd;
+    margin: 0 500px;
+  }
+  
+  .font-face-gm {
+    font-family: "tamagotchi";
+
+    color:black;
+   }
+
+

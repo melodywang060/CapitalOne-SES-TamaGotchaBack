@@ -1,52 +1,46 @@
 label.title{
-    margin: auto;
     display: block;
-    text-align-last: center;
+    text-align: center;
     position: relative;
-    top: 250px;
+    bottom: 150px;
     font-size: 28px;
 }
 
 input.email {
-    margin: auto;
+    color: black;
     display: block;
     position: relative;
-    top: 350px;
     padding-left: 120px;
     padding-bottom: 20px;
+    bottom: 40px;
 }
 
 label.enterEmail{
-    margin: auto;
     display: block;
     position: relative;
     text-align: center;
-    top: 275px;
     font-size: 18px;
+    bottom: 120px;
 }
 
 input.password{
-    margin: auto;
+    color: black;
     display: block;
     position: relative;
-    top: 400px;
     padding-left: 120px;
     padding-bottom: 20px;
 }
 
 label.enterPassword{
-    margin: auto;
     display: block;
     position: relative;
     text-align: center;
-    top: 325px;
     font-size: 18px;
+    bottom: 80px;
 }
 
 button.submit{
-    margin: auto;
     display: block;
     position: relative;
-    top: 430px
 }
 

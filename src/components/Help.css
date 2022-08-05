@@ -1,16 +1,26 @@
-.Title {
-    width: 1000px;
-    text-align: center;
+
+
+  .column{
+    padding-bottom: 50px;
+  }
+  /* Create two equal columns that floats next to each other */
+a{
+  font-size: 20px;
+  margin-left: 0px;
+  color: darkblue;
+  text-decoration: underline;
 }
 
 
-  
-  /* Create two equal columns that floats next to each other */
-
-
   li {
-    padding: 20px;
-    
+    padding: 30px;
+  }
+
+
+  p{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
   }
 
   .long-arrow-left{
@@ -35,3 +45,4 @@
     left: 0;
     top: 0;
   }
+  

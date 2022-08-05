@@ -3,14 +3,11 @@
   }
   
   .Home-header {
-    background-color: white;
-    color: blue;
     min-height: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(5px + 2vmin);
  
   }
 
@@ -19,17 +16,21 @@
     height: auto;
   }
 
+  img.c1logo{
+   width: 300px;
+  }
+
   a {
     margin: 0 50px;
     text-decoration: none;
-    color: black;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 25px;
   }
+
   .footerlinks {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
     margin: 0 32px;
 
   }
@@ -37,13 +38,27 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
     margin: 0 32px;
 
   }
 
-
+  .space {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
   
- 
+  .circle {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    width: 550px;
+    height: 620px;
+    background-color: rgb(219, 152, 76);
+    border-radius: 100%;
+    margin: 0 800px; 
+  }
 
   
