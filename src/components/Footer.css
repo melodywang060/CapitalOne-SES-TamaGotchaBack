@@ -4,5 +4,12 @@
     justify-content: space-evenly;
     height: 80px;
     background-color: #fadadd;
-    margin: 0 650px;
+    margin: 0 750px;
+    width: 1000px;
+  }
+  
+  r {
+    color: red;
+    font-family: "tamagotchi";
+    font-weight: 700;
   }

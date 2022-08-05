@@ -5,13 +5,20 @@
     flex-wrap: wrap;
     height: 80px;
     background-color: #fadadd;
-    margin: 0 500px;
+    margin: 0 730px;
+    width: 1000px;
+
   }
   
   .font-face-gm {
     font-family: "tamagotchi";
-
     color:black;
    }
+
+   b {
+    font-family: "tamagotchi";
+    color:black;
+    font-weight: 700;
+  }
 
 

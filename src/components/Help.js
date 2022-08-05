@@ -6,7 +6,7 @@ export const HelpPage = () => {
     return(
     <div>
 
-       <h1 className="Title">        <Link to='/Home'><div className="long-arrow-left left"></div></Link>Frequently Asked Qestions</h1>
+       <h1 className="Title">        <Link to='/Home'><div className="long-arrow-left left"></div></Link>Frequently Asked Questions</h1>
         <div class="row">
         <div class="column">
             <ol >

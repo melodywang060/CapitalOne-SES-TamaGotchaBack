@@ -5,10 +5,10 @@
   }
   /* Create two equal columns that floats next to each other */
 a{
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 0px;
   color: darkblue;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
