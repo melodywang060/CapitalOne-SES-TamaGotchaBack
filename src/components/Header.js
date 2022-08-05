@@ -4,10 +4,12 @@ import './Header.css'
 
 function Header() {
     return (
-        <div className="links">
-            <Link to="/questions">?</Link>
-            <Link to="/getPoints">Question of the day - Earn Gotchi Points!</Link>
-            <a> Gotchi Points </a>
+        <div className="header">
+            <div className="headerlinks">
+                <Link to="/questions">?</Link>
+                <Link to="/earnPoints">Question of the day - Earn Gotchi Points!</Link>
+                <a> Gotchi Points </a>
+            </div>
         </div>
     );
 }
