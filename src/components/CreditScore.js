@@ -49,8 +49,9 @@ const CreditScore = () => {
         <><><div>
             <label className='score'>Your score is... {displayScore(score)}
                 <br />{message(score)}</label>
-            <button onClick={linkMe()} className='helpMe'>
-                Read about some recommendations here! :</button>
+            <a href="https://www.capitalone.com/learn-grow/money-management/improve-credit-score/">
+                <button className='helpMe'> Read about some recommendations here! :</button> 
+                </a>  
         </div><div>
             {score < 670 && <img src={sadCat} alt="image" className="sad-cat" width="200" height="200" />}
         </div></><div>
