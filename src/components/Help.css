@@ -1,0 +1,48 @@
+
+
+  .column{
+    padding-bottom: 50px;
+  }
+  /* Create two equal columns that floats next to each other */
+a{
+  font-size: 20px;
+  margin-left: 0px;
+  color: darkblue;
+  text-decoration: underline;
+}
+
+
+  li {
+    padding: 30px;
+  }
+
+
+  p{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .long-arrow-left{
+    display: block;
+    margin: 10px auto;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    float: left;
+    margin-left: 25px;
+    transform: rotate(-45deg);
+  }
+  
+  .long-arrow-left::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: black;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
+  }
+  

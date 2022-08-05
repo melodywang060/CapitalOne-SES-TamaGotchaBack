@@ -3,6 +3,7 @@ import normalCat from './NormalCat.PNG';
 import happyCat2 from './HappyCat2.png';
 import angryCat from './AngryCat.PNG';
 import psychedCat from './PsychedCat.png';
+import {Link} from 'react-router-dom';
 import './EarnPoints.css';
 
 export default function EarnPoints() {
@@ -80,6 +81,9 @@ export default function EarnPoints() {
 	}
 	return (
 		<div className='app'>
+
+
+
 			<div className= 'textbox-section'>
 					 {words}
 			</div>
