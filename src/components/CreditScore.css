@@ -3,7 +3,7 @@ label.score{
     display: block;
     text-align-last: center;
     position: relative;
-    top: 200px;
+    top: 90px;
     font-size: 30px;
 }
 label.message{
@@ -17,8 +17,8 @@ label.message{
 
 .sad-cat{
     position: relative;
-    bottom: 100px;
-    left: 350px;
+    bottom: 200px;
+    left: 450px;
 }
 .happy-cat{
     position: relative;
@@ -30,6 +30,6 @@ button.helpMe{
     background-color:lightblue;
     display: block;
     position: relative;
-    top: 300px;
+    top: 150px;
     font-size: 18px;
 }

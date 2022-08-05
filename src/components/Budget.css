@@ -13,7 +13,7 @@ h1 {
 
 img.cat{
     position: relative;
-    left: 1080px;
+    left: 300px;
     border: 2px solid black;
     background-color: beige;
 }
@@ -25,3 +25,4 @@ button.addPurchase{
 input.enterPurchase{
     position: relative;
 }
+

@@ -50,7 +50,7 @@ const CreditScore = () => {
             <label className='score'>Your score is... {displayScore(score)}
                 <br />{message(score)}</label>
             <button onClick={linkMe()} className='helpMe'>
-                Read about some recommendations here!</button>:
+                Read about some recommendations here! :</button>
         </div><div>
             {score < 670 && <img src={sadCat} alt="image" className="sad-cat" width="200" height="200" />}
         </div></><div>

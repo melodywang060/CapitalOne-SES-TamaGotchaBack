@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import c1logo from "./c1logo.png";
 import './Footer.css'
 
 function Footer() {
