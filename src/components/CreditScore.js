@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import './CreditScore.css';
-import happyCat from './Psyched Cat.PNG';
-import normalCat from './Happy Cat 1.PNG';
-import sadCat from './Angry Cat.PNG';
+import happyCat from './PsychedCat.png';
+import normalCat from './HappyCat.PNG';
+import sadCat from './AngryCat.PNG';
+import { Link } from 'react-router-dom'
+
 
 
 const CreditScore = () => {
@@ -40,6 +42,7 @@ const CreditScore = () => {
 
     function linkMe() {
         <Link to ={{pathname: "https://www.capitalone.com/learn-grow/money-management/improve-credit-score/"}} target="_blank" />
+    
     }
 
     return (
