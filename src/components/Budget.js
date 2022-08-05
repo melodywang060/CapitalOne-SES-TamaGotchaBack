@@ -49,7 +49,7 @@ const Budget = () => {
     </div>
     <div>
             <button onClick={addDeposit} className='deposit'>Deposit</button>         
-            <input ref={newDeposit} className="deposit" type="text"/>
+            <input ref={newDeposit} className="enterDeposit" type="text"/>
     </div>
     <div>
       <img src={img} alt="normalcat" className='cat' width="350" height="350"/>
