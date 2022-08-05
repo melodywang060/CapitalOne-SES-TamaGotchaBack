@@ -23,6 +23,12 @@ button.addPurchase{
 }
 
 input.enterPurchase{
+    color: black;
     position: relative;
 }
+
+input.enterDeposit{
+    color: black;
+}
+
 
